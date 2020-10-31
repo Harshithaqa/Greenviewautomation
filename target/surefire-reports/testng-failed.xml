@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Greenview.Automation.SearchUserTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Greenview.Automation.SearchUserTest -->
+      <class name="Greenview.Automation.AddPropertyTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="Login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Greenview.Automation.AddPropertyTest -->
+      <class name="Greenview.Automation.PerformanceTest">
+        <methods>
+          <include name="Reports"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Greenview.Automation.PerformanceTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

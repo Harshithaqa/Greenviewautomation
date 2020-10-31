@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="313819" started-at="2020-10-29T21:44:08 IST" finished-at="2020-10-29T21:49:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="313819" started-at="2020-10-29T21:44:08 IST" finished-at="2020-10-29T21:49:22 IST">
+      <class name="Greenview.Automation.AddPropertyTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Greenview.Automation.AddPropertyTest@4afcd809]" name="initialize" is-config="true" duration-ms="41939" started-at="2020-10-29T21:44:08 IST" finished-at="2020-10-29T21:44:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:Greenview.Automation.AddPropertyTest@4afcd809]" name="Login" duration-ms="271241" started-at="2020-10-29T21:44:50 IST" data-provider="getData" finished-at="2020-10-29T21:49:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grace@greenview.sg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[greenview17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Greenview.Automation.AddPropertyTest@4afcd809]" name="teardown" is-config="true" duration-ms="503" started-at="2020-10-29T21:49:22 IST" finished-at="2020-10-29T21:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Greenview.Automation.AddPropertyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
